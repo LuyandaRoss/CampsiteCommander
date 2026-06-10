@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Campsite Commander</string>
+    <string name="campsite_commander">Campsite Commander</string>
+    <string name="view">View</string>
+    <string name="back_to_base">Back to Base</string>
+    <string name="campfire">Campfire</string>
+    <string name="packing_for_an_adventure">Packing for an adventure......</string>
+    <string name="total_items_packed">Total Items Packed:</string>
+    <string name="add_gear">Add Gear</string>
+    <string name="view_packing_list">View Packing List</string>
+    <string name="save_gear">Save Gear</string>
+    <string name="comments_e_g_4_person_waterproof">Comments e.g 4-person waterproof</string>
+    <string name="quantity">Quantity</string>
+    <string name="category_e_g_shelter_food_safety">Category e.g Shelter,Food,Safety</string>
+    <string name="item_name_e_g_tent">Item Name e.g Tent</string>
+    <string name="add_new_gear">Add New Gear</string>
+</resources>

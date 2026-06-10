@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/campsite_commander"
+        android:textColor="#039BE5"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/total_items_packed"
+        android:textColor="#039BE5"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnAddGear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#2C5364"
+        android:text="@string/add_gear"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:ignore="VisualLintButtonSize" />
+    <Button
+        android:id="@+id/btnViewList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#203A43"
+        android:text="@string/view_packing_list"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:ignore="VisualLintButtonSize" />
+
+
+</LinearLayout>
+
