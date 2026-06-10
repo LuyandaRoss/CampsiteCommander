@@ -14,4 +14,14 @@
     <string name="category_e_g_shelter_food_safety">Category e.g Shelter,Food,Safety</string>
     <string name="item_name_e_g_tent">Item Name e.g Tent</string>
     <string name="add_new_gear">Add New Gear</string>
+    <string name="add_new_gears">Add New Gear</string>
+    <string name="item_name_e_g_tents">Item Name e.g. Tent</string>
+    <string name="category_of_item_e_g_shelter_food_safety">Category e.g. Shelter, Food, Safety</string>
+    <string name="quantities">Quantity</string>
+    <string name="comment_e_g_4_person_waterproof">Comments e.g. 4-person waterproof</string>
+    <string name="save_gears">Save Gear</string>
+    <string name="back_to__base">Back to Base</string>
+    <string name="item_name">Item Name</string>
+    <string name="category">Category</string>
+    <string name="quantitys">Quantity</string>
 </resources>

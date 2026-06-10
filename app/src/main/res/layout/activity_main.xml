@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,8 +15,42 @@
         android:layout_marginBottom="8dp"
         android:text="@string/campsite_commander"
         android:textColor="#039BE5"
-        android:textSize="24sp"
+        android:textSize="28sp"
         android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/item_name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        tools:ignore="DuplicateIds,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/edtCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/category"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/edtQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/quantitys"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        tools:ignore="VisualLintTextFieldSize" />
+
 
     <TextView
         android:id="@+id/textViewTotal"
@@ -47,5 +83,7 @@
         tools:ignore="VisualLintButtonSize" />
 
 
+
 </LinearLayout>
+
 
