@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -19,68 +18,6 @@
             android:textColor="#039BE5"
             android:textSize="24sp"
             android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/editItemName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:autofillHints=""
-            android:hint="@string/item_name_e_g_tent"
-            android:inputType="text"
-            android:minHeight="48dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#8D6E63"
-            tools:ignore="VisualLintTextFieldSize" />
-
-        <EditText
-            android:id="@+id/editCategory"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:autofillHints=""
-            android:hint="@string/category_e_g_shelter_food_safety"
-            android:inputType="text"
-            android:minHeight="48dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#8D6E63"
-            tools:ignore="VisualLintTextFieldSize" />
-
-        <EditText
-            android:id="@+id/editQuantity"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:autofillHints=""
-            android:hint="@string/quantity"
-            android:inputType="number"
-            android:minHeight="48dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#888"
-            tools:ignore="VisualLintTextFieldSize" />
-
-        <EditText
-            android:id="@+id/editComments"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:autofillHints=""
-            android:hint="@string/comments_e_g_4_person_waterproof"
-            android:inputType="text"
-            android:minHeight="48dp"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#8D6E63"
-            tools:ignore="VisualLintTextFieldSize" />
-        <Button
-            android:id="@+id/btnSaveGear"
-            android:layout_width="144dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
-            android:padding="25dp"
-            android:text="@string/save_gear"
-            android:textColor="#C5E1A5"
-            android:gravity="center"
-            app:iconSize="12dp" />
 
         <Button
             android:id="@+id/btnBacktoBase"
